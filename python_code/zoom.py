@@ -1,7 +1,7 @@
 import cv2
 import os
 
-path_to_model = "EDSR_x4.pb"
+path_to_model = "./python_code/EDSR_x4.pb"
 
 print(os.path.exists(path_to_model))
 
