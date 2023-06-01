@@ -12,7 +12,7 @@ def superZoom(imgPath : str, result_path : str):
     img = cv2.imread(imgPath)
     model = cv2.dnn_superres.DnnSuperResImpl_create()
     model.readModel(path_to_model)
-    model.setModel("edsr",4)
+    model.setModel("edsr",8)
     result = model.upsample(img)
     # Resized image
     cv2.imwrite(result_path,result)
