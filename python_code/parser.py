@@ -1,6 +1,6 @@
 from style_transfer import default_neural_style_transfer
 
-default_neural_style_transfer(style_image_path="Vassily_Kandinsky,_1913_-_Composition_7.jpg",content_image_path="YellowLabradorLooking_new.jpg",result_image_path="test_image_1.png")
+default_neural_style_transfer(style_image_path="./python_code/Vassily_Kandinsky,_1913_-_Composition_7.jpg",content_image_path="./python_code/YellowLabradorLooking_new.jpg",result_image_path="./python_code/test_image_1.png")
 
 # defaultNetworkParser = argparse.ArgumentParser()
 # defaultNetworkParser.add_argument("-s","--style",help="Path for style image")
